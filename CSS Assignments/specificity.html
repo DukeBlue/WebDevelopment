@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+
+	<style type = "text/css"> 
+
+	/*Specificity means that the most specific change will win out. Here, ul will win bc it is more specific than body */
+	ul {
+		color: purple;
+	}
+	body{
+		color: red;
+	}
+
+	li {
+		color: orange;
+	}
+
+	.highlight {
+		color: yellow;
+	}
+
+	#special {
+		color: pink;
+	}
+
+	/*ID are the most specific, then class, and then elements */
+	</style>
+</head>
+<body>
+
+	<p> HELLO!!! </p>
+
+	<ul>
+		<li id = "special" class = "highlight">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class = "highlight">Ringo</li>
+		
+
+	</ul>
+
+
+
+</body>
+</html>

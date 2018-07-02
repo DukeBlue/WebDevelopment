@@ -1,0 +1,41 @@
+h1 {
+	color: #FF4F8F;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+
+	/* or we can write */
+
+	border: 5px solid rgb(0, 255, 0);
+}
+
+li {
+	color: rgb(0, 255, 0);
+}
+
+h4 {
+	color: rgba(0,55,0,1);
+	background: rgb(200, 100, 50);
+}
+
+body {
+	background: pink;
+
+
+/*	background: url(https://www.babybedding.com/images/fabric/gray-woodgrain-fabric_large.jpg);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+
+}
+
+
+
+/* HEXADECIMAL 
+
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+# _ _ _ _ _ _
+
+- First two entries represent the amount of red, next two entries represent the amount of green, and last two entries the amount of blue

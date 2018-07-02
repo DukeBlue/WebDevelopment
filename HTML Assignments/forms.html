@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+	<h1> Login </h1>
+
+<!--action -> what the form sends data to 
+	method -> what http method (get or post)
+ -->
+	<form action = "https://wikipedia.org">	
+
+	<label> Usename: <input name = "username" type = "text" placeholder = "Username"> </label>
+	<label> Password: <input name = "password" type = "password" placeholder = "Password"> </label>
+	<input type = "submit">
+
+	</form>
+
+	<!-- Another way of using labels  -->
+	<!-- Creating conections between the data with 'for' and 'id' -->
+
+	<form action = "https://wikipedia.org">	
+
+	<label for = "email">Email:</label>
+	<input id = "email" type = "email" placeholder = "Email" required>  <!-- Adding 'required' makes it so we cant leave blank -->
+	
+	<label for = "password">Password:</label>
+	<input id = "password" type = "password" placeholder = "Password" required>
+
+	<input type = "submit">
+
+	</form>
+
+
+
+</body>
+</html>

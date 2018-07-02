@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Forms Assignment</title>
+</head>
+<body>
+
+	<h1> Register </h1>
+<form>
+	<div>	
+		<label for = "firstname"> First Name: </label>
+		<input name = firstname" id = "firstname" type = "text" placeholder = "John">
+		<label for = "lastname"> Last Name: </label>
+		<input name = "lastname" id = "lastname" type = "text" placeholder = "Smith">
+	</div>
+
+	<div> 
+		<label for = "male"> Male </label>
+		<input name = "gender" id = "male" type = "radio">
+		<label for = "female"> Female </label>
+		<input name = "gender" id = "female" type = "radio">
+		<label for = "other"> Other </label>
+		<input name = "gender" id = "other" type = "radio">
+	</div>
+
+	<div>
+		<label for = "email"> Email: </label>
+		<input name = "email" id = "email" type = "email" placeholder = "your email" required>
+		<label for = "pass"> Password: </label>
+		<input id = "pass" type="password" name="pass" required>
+	</div>
+
+	<div>
+		<label> Birthday:
+			<select name = "Month">
+				 <option value="0" selected disabled>Month</option>
+				<option value = "January"> January </option>
+				<option value = "Febuary"> Febuary </option>
+				<option value = "March"> March </option>
+			</select>
+			<select name = "Day">
+				 <option value="0" selected disabled>Day</option>
+				<option value = "1"> 1 </option>
+				<option value = "2"> 2 </option>
+				<option value = "3"> 3 </option>
+			</select>
+			<select name = "Year">
+				 <option value="0" selected disabled>Year</option>
+				<option value = "2001"> 2001 </option>
+				<option value = "2002"> 2002 </option>
+				<option value = "2003"> 2003 </option>
+			</select>
+		</label>
+
+	</div>
+
+	<div>
+		<label for = "agree"> I agree to the terms and conditions </label>
+		<input id = "agree" type = "checkbox">
+	</div>
+
+	<div>
+      <input type="submit" value="Submit" />
+    </div>
+</form>
+
+
+
+
+</body>
+</html>

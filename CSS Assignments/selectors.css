@@ -1,0 +1,61 @@
+/*Elements*/
+li {
+
+}
+
+
+/*Class*/
+.hello {
+
+}
+
+
+/*id*/
+#name {
+
+}
+
+
+/*Star*/
+
+* {
+	border: 1px solid lightgrey;
+	
+}
+
+/*Descendent Selector */
+
+li a {
+	color: red;
+
+}
+/*Selects everything that is an 'a' inside an 'li'*/
+
+
+/*Adjacent Selector */
+
+h4 + ul {
+	border: 4px solid red;
+}
+/*Selects all 'uls' that come after an 'h4'*/
+
+
+/*Attribute Selector */
+
+a[href="http://www.google.com"]{
+	background: blue;
+}
+
+
+/*nth of type */
+
+ul:nth-of-type(odd){
+	background: purple;
+}
+
+
+
+
+
+
+

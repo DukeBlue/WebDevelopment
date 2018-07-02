@@ -1,0 +1,80 @@
+
+/*Font Family */
+
+p {
+	font-family: 'Raleway Dots', sans-serif;
+}
+
+h1 {
+	font-family: 'Lobster', sans-serif;
+}
+
+/*Font Size */
+
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 200px;
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 40px;
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+/*Font Weight */
+
+p {
+	font-weight: normal;
+}
+
+/*Line Height : Line spacing; */
+
+
+p {
+	line-height: 1.5;
+}
+
+/*Text Align */
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+
+/*Text Decoration */
+
+p {
+	text-decoration: underline;
+}
+
+
+h1{
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
